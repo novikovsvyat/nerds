@@ -1412,12 +1412,15 @@ textarea.input-invalid {
 	font-weight: 700;
 	margin-top: 30px;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .info-cell p {
+	margin: 0;
 	text-align: center;
 	color: #666666;
 	line-height: 18px;
+	margin-bottom: 35px;
 }
 
 .price-button {
@@ -1436,11 +1439,6 @@ textarea.input-invalid {
 	width: 360px;
 	opacity: 0.12;
 	transition: 0.6s ease;
-}
-
-
-.price-button:focus ~ .info-cell {
-max-height: 50%;
 }
 
 
